@@ -1,0 +1,140 @@
+/**
+* Template Name: DevFolio
+* Updated: Mar 10 2023 with Bootstrap v5.2.3
+* Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+
+@font-face {
+  font-family: 'Andale Mono';
+  src: url('fonts/Andale-Mono.eot');
+  src: url('fonts/Andale-Mono.eot?#iefix') format('embedded-opentype'),
+       url('fonts/Andale-Mono.woff2') format('woff2'),
+       url('fonts/Andale-Mono.woff') format('woff'),
+       url('fonts/Andale-Mono.ttf')  format('truetype'),
+       url('fonts/Andale-Mono.svg#Andale Mono') format('svg');
+}
+
+html, body {
+  background-color: #231F20 !important;
+}
+
+body {
+  color: #fff !important;
+  font-family: 'Andale Mono' !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Andale Mono' !important;
+  color: #fff !important;
+}
+
+a {
+  color: #1e1e1e;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+}
+
+a:hover {
+  color: #0078ff;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+}
+
+.back-section0 {
+  background-image:url(http://localhost/bcruby/wp-content/themes/bccruby/images/r.svg); 
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: left center;
+}
+
+.back-section1 {
+  background-image:url(http://localhost/bcruby/wp-content/themes/bccruby/images/u.svg); 
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: right center;
+}
+
+.back-section2 {
+  background-image:url(http://localhost/bcruby/wp-content/themes/bccruby/images/b.svg); 
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: left center;
+}
+
+.back-section3 {
+  background-image:url(http://localhost/bcruby/wp-content/themes/bccruby/images/y.svg); 
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: right top;
+}
+
+.text-amarillo {
+  color: #F8ED2F !important; 
+}
+
+.back-amarillo {
+  background-color: #F8ED2F !important;
+  margin-top: -300px !important;
+  position: absolute;
+  height: 300px;
+}
+
+.header-letras { 
+  position: absolute;
+  z-index: 2;
+}
+
+.fp-section {
+  background-color: #231F20 !important;
+}
+
+.intro {
+  width: 80%;
+  border-left: 15px yellow solid;
+  padding: 20px;
+  position: absolute;
+  left: 10%;
+  bottom: 10%;
+}
+
+.intro_amarillo {
+  width: 100%;
+  background-color: yellow !important;
+  padding: 20px;
+  position: absolute;
+  bottom: 0px;
+}
+
+.intro-branding {
+  width: 80%;
+  padding: 10%;
+  position: absolute;
+  bottom: 10%;
+}
+
+.pswp {
+  display: none !important;
+}
+
+@media (max-width: 1024px) {
+  .bg-image {
+    background-attachment: scroll;
+  }
+}
+
+@media (min-width: 768px) {
+  .box-shadow-full {
+    padding: 3rem;
+  }
+}
